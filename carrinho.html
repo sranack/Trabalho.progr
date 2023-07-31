@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .cart {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            margin: 20px auto;
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+        .cart-item img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .total {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-top: 1px solid #ccc;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <div class="cart-item">
+            <img src="bolo.jpg" alt="Item 1">
+            <span> BOLO 1 </span>
+            <span>R$49,99</span>
+        </div>
+        <div class="cart-item">
+            <img src="bolo4.jpg" alt="Item 2">
+            <span>BOLO 2</span>
+            <span>R$50,99</span>
+        </div>
+        <div class="total">
+            <span>Total:</span>
+            <span>R$100,98</span>
+        </div>
+    </div>
+</body>
+</html>

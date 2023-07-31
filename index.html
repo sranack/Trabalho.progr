@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo de gatos </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+           
+            <img src="logogato.png" class="container__imagem2">
+            <h1 class="container__titulo">Bolo de Gatos</h1>
+        </div>
+        <a class="cabeçalho1" > Home</a>
+        <a class="cabeçalho2" > Sobre</a>
+          <a class="cabeçalho3" > Bolos</a>	
+          <a class="cabeçalho4" > Contatos</a>
+          <a class="cabeçalho5" href = "carrinho.html"> Meu carrinho</a>
+           
+                <img src="Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+                
+            </a>
+        
+        </div>
+    </header>
+ 
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Nossos bolos</h2>
+
+        <div class="carrossel__container">
+            <div class="swiper">
+         
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                  
+                    <div class="swiper-slide"><img src="bolo.jpg"
+                            alt="bolo1">
+                        <p class="">R$30,00kg</p></div>
+                    <div class="swiper-slide"><img src="bolo1.jpg"
+                            alt="bolo2"><p class="">R$38,00kg</p></div>
+                    <div class="swiper-slide"><img src="bolo3.jpg"
+                            alt="bolo3"><p class="">R$30,00kg</p></div>
+                    <div class="swiper-slide"><img src="bolo4.jpg" alt="bolo4"><p class="">R$30,00kg</p></div>
+                    <div class="swiper-slide"><img src="bolo.jpg"
+                        alt="bolo1"><p class="">R$30,00kg</p></div>
+                <div class="swiper-slide"><img src="bolo1.jpg"
+                        alt="bolo2"><p class="">R$30,00kg</p></div>
+                <div class="swiper-slide"><img src="bolo3.jpg"
+                        alt="bolo3"><p class="">R$30,00kg</p></div>
+                <div class="swiper-slide"><img src="bolo4.jpg" alt="bolo4"><p class="">R$30,00kg</p></div>
+                </div>
+
+              
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+        <h2 class="carrossel__titulo">Sabores de bolos</h2>
+        
+                <section>
+                    <ul>
+                    <li style="font-size:20px; text-align:center;">Brigadeiro </li>
+                      <li style="font-size:20px; text-align:center;">Leite Ninho com Nutella</li>  <li style="font-size:20px; text-align:center;">Morango</li>  <li style="font-size:20px; text-align:center;">Pessêgo</li>  <li style="font-size:20px; text-align:center;">Sabor personalizado</li>
+                    </ul></div></div></section>
+              
+     </h1>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">Sobre a empresa:</h2>
+
+        <h3 class="sobre">
+            Nossa empresa foi criada com o objetivo de ajudar as ONG’s, principalmente aquelas que têm gatinhos. Com o dinheiro, fazemos doações, além disso usamos para melhorar cada vez mais nossos bolos. Feitos com carinho, nossos bolos são a escolha perfeita para qualquer ocasião. Esperamos crescer com nossa empresa e termos várias franquias espalhadas pelo Brasil.
+        </h3>
+       
+
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Faça sua encomenda!</h2>
+            <p class="contato__texto">Peça já seu bolo de gato fofinho !</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
